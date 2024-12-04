@@ -71,7 +71,7 @@ DELETE /tarjetas-graficas/:modelo = Elimina una tarjeta gráfica usando su model
 4.1.2 Buscar tarjeta gráfica por modelo
 
 <ul>
-<li>URL: http://localhost:3000/tarjetas-graficas/RTX3080</li>
+<li>URL: http://localhost:3000/tarjetas-graficas/RTX 4090</li>
 <li>Respuesta esperada: Datos de la tarjeta gráfica con ese modelo</li>
 <li>Mensaje de error: "No se ha encontrado la tarjeta gráfica"</li>
 </ul>

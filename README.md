@@ -71,7 +71,7 @@ DELETE /tarjetas-graficas/:modelo = Elimina una tarjeta gráfica usando su model
 4.1.2 Buscar tarjeta gráfica por modelo
 
 <ul>
-<li>URL: http://localhost:3000/tarjetas-graficas/RTX 4090</li>
+<li>URL: http://localhost:3000/tarjetas-graficas/RTX_4090</li>
 <li>Respuesta esperada: Datos de la tarjeta gráfica con ese modelo</li>
 <li>Mensaje de error: "No se ha encontrado la tarjeta gráfica"</li>
 </ul>
@@ -86,7 +86,7 @@ DELETE /tarjetas-graficas/:modelo = Elimina una tarjeta gráfica usando su model
 </ul>
 
 ```
-{ "modelo": "RTX 4090", "marca": "NVIDIA", "memoria": 24, "precio": 1499.99, "fechaLanzamiento": "2023-10-12T00:00:00Z" }
+{ "modelo": "RTX_4090", "marca": "NVIDIA", "memoria": 24, "precio": 1499.99, "fechaLanzamiento": "2023-10-12T00:00:00Z" }
 ```
 
 <ul>
@@ -99,7 +99,7 @@ DELETE /tarjetas-graficas/:modelo = Elimina una tarjeta gráfica usando su model
 4.3.1 Actualizar detalles de tarjeta gráfica identificando por modelo
 
 <ul>
-<li>URL: http://localhost:3000/tarjetas-graficas/RTX4080</li>
+<li>URL: http://localhost:3000/tarjetas-graficas/RTX_4090</li>
 <li>Body (JSON): Seleccioná raw → JSON. Agregar en formato JSON los datos a actualizar:</li>
 </ul>
 
@@ -117,7 +117,7 @@ DELETE /tarjetas-graficas/:modelo = Elimina una tarjeta gráfica usando su model
 4.4.1 Eliminar una tarjeta gráfica por modelo
 
 <ul>
-<li>URL: http://localhost:3000/tarjetas-graficas/RTX3070</li>
+<li>URL: http://localhost:3000/tarjetas-graficas/RTX_4090</li>
 <li>Respuesta esperada: Listado de JSON actualizado sin la tarjeta gráfica con el modelo ingresado.</li>
 <li>Mensaje de error: "No se ha encontrado la tarjeta gráfica con ese modelo"</li>
 </ul>
